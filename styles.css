@@ -1,0 +1,703 @@
+:root {
+  --grey-backgond-color:#F5F3E9;
+  --grey-honey-color:#FFF6EA;
+  --dark-grey-color:#BBAC97;
+  --darkest-grey-color:#BBAC97;
+  --dakest-grey-black-color:#2F2E2E;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.wrapper{
+  max-width: 100%;
+  margin:0, auto;
+  
+
+}
+
+/* buttons*/
+.btn {
+  padding: 10px, 10px, 10px, 10px;
+  border-radius: 25px;
+  color:#000000;
+  display:inline-block;
+  font-weight: 400;
+  font-size: 40px;
+  text-decoration:none;
+}
+.btn {
+  background:var(--darkest-grey-color);
+}
+
+
+body {background-color: #F5F3E9;}
+
+/* header */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top:20px;
+  z-index: 100;
+  margin-left: 320px ;
+
+}
+
+nav.logo {
+  font-family: "Arial", "Helvetica", "sans-serif";
+
+font-weight: 400;
+font-size: 40px;
+color: #000000;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+  margin: 00;
+  
+}
+
+nav ul li a {
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 40px;
+  color: #FFF6EA;
+  text-decoration:none;
+  
+
+}
+
+ /* fin du header section*/
+
+
+
+.hero-section  {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items:center;
+  justify-content: space-between;
+  margin: left 550px;
+}
+
+
+.hero-section .center h1 {
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 45px;
+  z-index: 100;
+  position: absolute;
+  top: 70px;
+  margin-left: 550px;
+  color:#545454
+  
+
+}
+
+.hero-section .center h2 {
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 45px;
+  z-index: 100;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 240px;
+  color:#545454;
+ 
+}
+
+.hero-section .Background img {
+  width: 100%;
+  height: auto;
+  left: 0px;
+  top: 0px; 
+}
+ /* position: relative;/*
+
+
+
+/*fin du section hero-section*/
+
+.preview-section img {
+
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+
+.preview-section .midle-preview h1 {
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 45px;
+  color: #545454;
+  margin-left: 500px;
+  
+}
+
+.preview-section .midle-preview p {
+
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 25px;
+  z-index: 100;
+  color: #545454;
+  margin-left: 500px;
+
+}
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 20%;
+  padding:0px;
+  
+}
+
+/*fin du section preview-section*/
+
+.expertise {
+
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+  .expertise .left img {
+    width: 100%;
+    height: 80vh;
+    left: 0px;
+    top: 0px; 
+    border-radius: 25px;
+    gap: 5px;
+    
+}
+
+.expertise .right h2 {
+
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 45px;
+  color: #545454;
+  position: center;
+  padding: 10px, 10px, 10px, 10px;
+
+}
+
+.expertise p {
+
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 25px;
+  z-index: 100;
+  color: #545454;
+  position: center;
+  padding: 10px, 10px, 10px, 10px;
+
+}
+
+
+
+
+/*fin de la section expertise*/
+
+
+.Profile {
+
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+  .Profile .right img {
+    width: 100%;
+    height: 80vh;
+    left: 0px;
+    top: 0px; 
+    border-radius: 25px;
+   
+}
+
+.Profile .left h1 {
+
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 45px;
+  color: #545454;
+  
+}
+  
+
+.Profile .left p {
+
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 25px;
+  z-index: 100;
+  color: #545454;
+  
+}
+
+
+/*fin de la section profile*/
+
+.services {
+
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+  .services .left img {
+    width: 100%;
+    height: 80vh;
+    left: 0px;
+    top: 0px; 
+    border-radius: 25px;
+    
+}
+
+.services .center h1 {
+
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 45px;
+  color: #545454;
+  
+  
+}
+
+.services .center p {
+
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 25px;
+  z-index: 100;
+  color: #545454;
+  
+}
+
+/*fin de la section services*/
+
+.team .midle {
+  margin-left: 500px;
+}
+
+.team .center h1 {
+
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 45px;
+  color: #545454;
+  margin-left: 500px;
+}
+
+.team p {
+
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 25px;
+  z-index: 100;
+  color: #545454;
+  
+}
+
+/*fin de la section team*/
+
+
+
+.portofolio .center h1 {
+
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 45px;
+  color: #545454;
+  margin-left: 400px;
+  padding: 20px 0; 
+  
+}
+
+.portofolio img {
+
+  display:flex;
+  align-items: center;
+  justify-content: space-between;  
+  width: 40%;
+  top:20px;
+  margin-left: 80px;
+  
+}
+
+.portofolio {background-color:#BBAC97}
+
+/*fin de la section Portofolio*/
+
+
+
+footer {background:var(--dakest-grey-black-color);}
+
+footer {
+
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  top:20px;
+  
+}
+
+footer ul {
+  
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 20px 0; 
+  
+}
+
+footer ul li {
+  margin: 15px 0;
+  padding: 0px 0; 
+  
+}
+
+footer ul li a {
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 20px;
+  color:#FFF6EA;
+  text-decoration:none;
+  margin-left: 100px;
+}
+
+footer .links-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+
+}
+
+footer .links-container  img {
+  width: 10%;
+  height: 10%;
+  border-radius: 25px;
+  display: flexbox;
+  align-items: center;
+  justify-content: space-between;  
+  margin-left: 25px;
+
+}
+
+footer .ending   {
+
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 20px;
+  margin-left:80px;
+  color: #FFF6EA;
+
+}
+  
+ 
+
+
+
+/*  style of galery section          galery section          galery section              */
+
+.hero-section2 .Background img {
+  width: 100%;
+  height: auto;
+  left: 0px;
+  top: 0px;
+  margin: 0px;
+
+}
+
+.hero-section2 .center h1 {
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 45px;
+  z-index: 100;
+
+  position: absolute;
+  margin-left: 300px;
+  top: 250px;
+  color:#FFF6EA;
+ 
+}
+
+/*fin de la section hero-section2 */
+ 
+ .home-cinema img {
+
+  height: 100%;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between; 
+  
+}
+
+
+.home-cinema .center h1 {
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 45px;
+  color: #545454;
+  margin-left: 500px;
+  
+}
+
+.home-cinema .center p {
+
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 25px;
+  z-index: 100;
+  color: #545454;
+  margin-left: 500px;
+
+}
+
+/*fin de la section home-cinema */
+
+.bed-room img {
+
+  height: 100%;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between; 
+  
+}
+
+.bed-room .center h1 {
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 45px;
+  color: #545454;
+  margin-left: 500px;
+  
+}
+
+.bed-room .center p {
+
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 25px;
+  z-index: 100;
+  color: #545454;
+  margin-left: 500px;
+
+}
+
+/*fin de la section bed-room */
+
+.living-room img {
+
+  height: 100%;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between; 
+  
+}
+
+.living-room .center h1 {
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 45px;
+  color: #545454;
+  margin-left: 500px;
+  
+}
+
+.living-room .center p {
+
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 25px;
+  z-index: 100;
+  color: #545454;
+  margin-left: 500px;
+
+}
+
+/*fin de la section living-room */
+
+.bath-room img {
+
+  height: 100%;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between; 
+  
+}
+
+.bath-room .center h1 {
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 45px;
+  color: #545454;
+  margin-left: 500px;
+  
+}
+
+.bath-room .center p {
+
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 25px;
+  z-index: 100;
+  color: #545454;
+  margin-left: 500px;
+
+}
+
+/*fin de la section bath-room */
+
+
+.stair-case img {
+
+  height: 100%;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between; 
+  
+}
+
+.stair-case .center h1 {
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 45px;
+  color: #545454;
+  margin-left: 500px;
+  
+}
+
+.stair-case .center p {
+
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 25px;
+  z-index: 100;
+  color: #545454;
+  margin-left: 500px;
+
+}
+
+/*fin de la section stair-case */
+
+.Kitchen-Bar img {
+
+  height: 100%;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between; 
+  
+}
+
+.Kitchen-Bar .center h1 {
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 45px;
+  color: #545454;
+  margin-left: 500px;
+  
+}
+
+.Kitchen-Bar .center p {
+
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 25px;
+  z-index: 100;
+  color: #545454;
+  margin-left: 500px;
+
+}
+
+/*fin de la section bath-room */
+
+
+/* debut de la section consultation     consultation   consultation  */
+
+.consultation {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+  
+.consultation .row .column img {
+    width:100%;
+    left: 20px;
+    top: 0px; 
+    gap: 5px;
+
+    
+}
+
+.consultation .center h1 {
+
+  display: flex;
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 45px;
+  color: #545454;
+  padding: 10px, 10px, 10px, 10px;
+
+  left: 400px;
+
+}
+
+.consultation p {
+
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 25px;
+  z-index: 100;
+  color: #545454;
+  position: center;
+  padding: 10px, 10px, 10px, 10px;
+
+}
+
+.consultation .center {
+
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 20px;
+  z-index: 100;
+  color: #545454;
+  position: center;
+  border-radius: 25%;
+
+}
+
+/* fin de la section consultation    */
